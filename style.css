@@ -5,7 +5,9 @@
     --text-color: #777777;
     --spare-color: #d1ecf1;
     }
-    
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
     header{
         background-color: white;
@@ -100,4 +102,54 @@
         text-decoration: underline;
         cursor: pointer;
         color: white;
+    }
+
+    input{
+        font-size: 12px;
+        padding:8px 16px;
+        outline: none;
+        border: none;
+        margin: 0;
+     
+
+    }
+    button{
+        border: none;
+        background-color: rgb(221, 59, 59);
+        padding: 8px 16px;
+        color: white;
+        font-size: 12px;
+    }
+    .readmore{
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+
+    .tut-caption{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 120px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .tut-caption h3{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .tut-caption span{
+        color: var(--primary-color);
+    }
+    .tut-caption span:hover{
+        cursor: pointer;
+        color: var(--heading-color);
+    }
+    .vids{
+        display: flex;
+        gap: 30px;
+    }
+    .vid-container{
+        background-color: rgba(128, 128, 128, 0.151);
+    }
+    .vid-caption{
+        margin: 20px;
     }
