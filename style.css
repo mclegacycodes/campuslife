@@ -1,0 +1,103 @@
+/* creating some variables */
+:root{
+    --primary-color:#1C2473;
+    --heading-color: #37423b;
+    --text-color: #777777;
+    --spare-color: #d1ecf1;
+    }
+    
+
+    header{
+        background-color: white;
+        border-bottom: 5px solid var(--primary-color);
+        z-index: 50;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    #logo-name{
+        font-size: 25px;
+        color: var(--primary-color);
+        font-weight: 600;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 70px;
+        margin-top: 8px;
+    }
+     
+    li a{
+        text-decoration: none;
+        color:var(--text-color);
+        font-size: 20px;
+    }
+
+
+    /* customizing the carousl */
+    .carousel-item > img{
+        height: 700px;
+    }
+
+    .sec-img{
+        width: 500px;
+        position: absolute;
+        right: 0;
+        top: 60;
+        transform: translate(20px,70px);
+    }
+    .main-header{
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 90px;
+        color: var(--primary-color);
+        margin-bottom: 50px;
+    }
+    .article-container{
+        position: relative;
+        background-color: rgba(185, 190, 190, 0.178);
+        padding:30px;
+        display: flex;
+        gap: 30px;
+    }
+    article{
+        width: 500px;
+
+    }
+    h4{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+
+    footer{
+        background-color: var(--primary-color);
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+    }
+    .footer-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    ol li{
+        list-style-type: none;
+    }
+
+    ol li a{
+        font-size: 14px;
+        color: white;
+    }
+
+    ol li a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        color: white;
+    }
